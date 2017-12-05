@@ -1,6 +1,6 @@
-use reviews
+//./mongo localhost:27017/reviews  /Users/vi390699/Documents/learning/sample_mongodb_queries/insert_and_find.js
 
-db.potions.drop()
+db.potions.drop();
 
 db.potions.insert( {
     "name" : "Love",
@@ -37,7 +37,6 @@ db.potions.insert( {
 
 });
 
-db.potions.find( { name : "Love" , "ratings.flavor" : 5}) 
+db.potions.find( { name : "Love" , "ratings.flavor" : 5})
 
 // db.potions.drop();
-
